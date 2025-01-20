@@ -1,0 +1,18 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v,1631042964,verilog,,C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionMemory.v,,InstructionFetchUnit,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionMemory.v,1630692652,verilog,,C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/PCAdder.v,,InstructionMemory,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionMemory_tb.v,1630535288,verilog,,,,InstructionMemory_tb,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/PCAdder.v,1630693074,verilog,,C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter.v,,PCAdder,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/PCAdder_tb.v,1630534015,verilog,,,,PCAdder_tb,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter.v,1631043200,verilog,,C:/Users/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/SevenSegment.v,,ProgramCounter,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v,1630534492,verilog,,,,ProgramCounter_tb,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/4-ClockDivider/ClkDiv.v,1630358113,verilog,,C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v,,ClkDiv,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/SevenSegment.v,1630358113,verilog,,C:/Users/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v,,SevenSegment,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v,1630358113,verilog,,C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.srcs/sources_1/new/lab1source.v,,Two4DigitDisplay,,,,,,,,
+C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.srcs/sim_1/new/InstructionFetchUnit_tb.v,1631040983,verilog,,,,InstructionFetchUnit_tb,,,,,,,,
+C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.srcs/sim_1/new/lab1source_tb.v,1630690782,verilog,,,,lab1source_tb,,,,,,,,
+C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.srcs/sources_1/new/lab1source.v,1631041348,verilog,,C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.srcs/sim_1/new/lab1source_tb.v,,lab1source,,,,,,,,

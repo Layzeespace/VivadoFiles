@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.sim/sim_1/impl/func/xsim/competition_source_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32Bit_C
+INFO: [VRFC 10-311] analyzing module EX_STAGE_C
+INFO: [VRFC 10-311] analyzing module ID_STAGE_C
+INFO: [VRFC 10-311] analyzing module IF_ID_COMBO_C
+INFO: [VRFC 10-311] analyzing module IF_ID_EX_COMBO_C
+INFO: [VRFC 10-311] analyzing module IF_STAGE_C
+INFO: [VRFC 10-311] analyzing module MEGA_SAD_COMBO
+INFO: [VRFC 10-311] analyzing module MEM_MEGASAD_COMBO
+INFO: [VRFC 10-311] analyzing module MEM_STAGE_C
+INFO: [VRFC 10-311] analyzing module ProgramCounter_C
+INFO: [VRFC 10-311] analyzing module REG_EX_MEM_C
+INFO: [VRFC 10-311] analyzing module REG_ID_EX_C
+INFO: [VRFC 10-311] analyzing module REG_IF_ID_C
+INFO: [VRFC 10-311] analyzing module REG_MEM_SAD1_C
+INFO: [VRFC 10-311] analyzing module REG_SAD1_SAD2_C
+INFO: [VRFC 10-311] analyzing module REG_SAD2_SAD3_C
+INFO: [VRFC 10-311] analyzing module REG_SAD3_WB_C
+INFO: [VRFC 10-311] analyzing module RegFile_C
+INFO: [VRFC 10-311] analyzing module SAD1_STAGE_C
+INFO: [VRFC 10-311] analyzing module SAD2_STAGE_C
+INFO: [VRFC 10-311] analyzing module SAD3_STAGE_C
+INFO: [VRFC 10-311] analyzing module Two4DigitDisplay
+INFO: [VRFC 10-311] analyzing module competition_source
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sim_1/new/competition_source_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module competition_source_tb

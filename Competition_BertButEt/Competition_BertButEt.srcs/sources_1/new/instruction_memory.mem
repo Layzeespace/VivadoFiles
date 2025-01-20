@@ -1,0 +1,83 @@
+8c110004	//	begin:			lw	$s1, 4($zero) ->	begin:			lw	$s1, 4($zero)
+8c100000	//				lw	$s0, 0($zero) ->				lw	$s0, 0($zero)
+200e003c	//				addi	$t6, $zero, 60 ->				addi	$t6, $zero, 60
+20080000	//				addi	$t0, $zero, 0 ->				addi	$t0, $zero, 0
+2231fffc	//				addi	$s1, $s1, -4 ->				addi	$s1, $s1, -4
+2210fffc	//				addi	$s0, $s0, -4 ->				addi	$s0, $s0, -4
+00109020	//				add	$s2, $zero, $s0 ->				add	$s2, $zero, $s0
+08000048	//				j	loop ->				j	loop
+FD110000
+FD110001
+FD110002
+FD110003
+FD110004
+FD110005
+2252ffff	//				addi	$s2, $s2, -1 ->				addi	$s2, $s2, -1
+FD100006
+FD100007
+FD100008
+FD100009
+FD10000a
+FD10000b
+FD10000c
+FD10000d
+FD10000e
+FD10000f
+FD100010
+FD100011
+FD100012
+FD100013
+FD100014
+FD100015
+FD100016
+FD100017
+FD100018
+FD100019
+FD10001a
+FD10001b
+FD10001c
+FD10001d
+FD10001e
+FD10001f
+FD100020
+FD100021
+FD100022
+FD100023
+FD100024
+FD100025
+FD100026
+FD100027
+FD100028
+FD100029
+FD10002a
+FD10002b
+FD10002c
+FD10002d
+FD10002e
+FD10002f
+FD100030
+FD100031
+FD100032
+FD100033
+FD100034
+FD100035
+FD100036
+FD100037
+FD100038
+FD100039
+FD10003a
+FD10003b
+FD10003c
+FD10003d
+22500000	//				addi	$s0, $s2, 0 ->				addi	$s0, $s2, 0
+06400009	//	loop:			bltz	$s2, end ->	loop:			bltz	$s2, end
+11d1ffbe	//				beq	$t6, $s1, sixty_one_reset ->				beq	$t6, $s1, sixty_one_reset
+0131502a	//				slt	$t2, $t1, $s1 ->				slt	$t2, $t1, $s1
+11400003	//				beq	$t2, $zero, reset ->				beq	$t2, $zero, reset
+FD320000	//	one:			nop ->	one:			nop
+21290001	//				addi	$t1, $t1, 1 ->				addi	$t1, $t1, 1
+08000048	//				j	loop ->				j	loop
+2252ffff	//	reset:			addi	$s2, $s2, -1 ->	reset:			addi	$s2, $s2, -1
+20090000	//				addi	$t1, $zero, 0 ->				addi	$t1, $zero, 0
+08000048	//				j	loop ->				j	loop
+08000052	//	end:			j	end ->	end:			j	end

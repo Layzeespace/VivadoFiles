@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1631125559">
+  <File Type="ROUTE-PWR" Name="lab1source_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="lab1source.tcl"/>
+  <File Type="BITSTR-BMM" Name="lab1source_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="lab1source_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="lab1source_reports.tcl"/>
+  <File Type="OPT-DCP" Name="lab1source_opt.dcp"/>
+  <File Type="OPT-DRC" Name="lab1source_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="lab1source.hwdef"/>
+  <File Type="PWROPT-DCP" Name="lab1source_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="lab1source_placed.dcp"/>
+  <File Type="PLACE-IO" Name="lab1source_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="lab1source_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="lab1source_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="lab1source_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="lab1source_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="lab1source_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="lab1source.bin"/>
+  <File Type="PHYSOPT-DCP" Name="lab1source_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="lab1source.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="lab1source_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="lab1source_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="lab1source_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="lab1source_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="lab1source_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="lab1source_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="lab1source_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="lab1source.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="lab1source_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="lab1source_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="lab1source_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="lab1source_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="lab1source_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="lab1source_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="lab1source_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="lab1source_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="lab1source_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="lab1source_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="lab1source_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="lab1source_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="lab1source_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="lab1source_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="lab1source.bit"/>
+  <File Type="BITSTR-RBT" Name="lab1source.rbt"/>
+  <File Type="BITSTR-NKY" Name="lab1source.nky"/>
+  <File Type="PDI-FILE" Name="lab1source.pdi"/>
+  <File Type="RCFI_FILE" Name="lab1source.rcfi"/>
+  <File Type="CFI_FILE" Name="lab1source.cfi"/>
+  <File Type="RNPI_FILE" Name="lab1source.rnpi"/>
+  <File Type="NPI_FILE" Name="lab1source.npi"/>
+  <File Type="RBD_FILE" Name="lab1source.rbd"/>
+  <File Type="BITSTR-LTX" Name="lab1source.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="lab1source.sysdef"/>
+  <File Type="BG-BGN" Name="lab1source.bgn"/>
+  <File Type="BG-DRC" Name="lab1source.drc"/>
+  <File Type="RDI-RDI" Name="lab1source.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../Downloads/Resources/Resources/4-ClockDivider/ClkDiv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionMemory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Downloads/Resources/Resources/1-InstructionFetchUnit/PCAdder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Downloads/Resources/Resources/5-Two4DigitDisplay/SevenSegment.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Downloads/Resources/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab1source.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="lab1source"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../Downloads/Resources/Resources/5-Two4DigitDisplay/Two4DigitDisplay.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

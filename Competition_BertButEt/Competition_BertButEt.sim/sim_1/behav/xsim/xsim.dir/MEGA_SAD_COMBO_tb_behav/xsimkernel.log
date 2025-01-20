@@ -1,0 +1,7 @@
+Running: xsim.dir/MEGA_SAD_COMBO_tb_behav/xsimk.exe -simmode gui -wdb MEGA_SAD_COMBO_tb_behav.wdb -simrunnum 0 -socket 58018
+Design successfully loaded
+Design Loading Memory Usage: 6076 KB (Peak: 6076 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6976 KB (Peak: 6976 KB)
+Simulation CPU Usage: 46 ms

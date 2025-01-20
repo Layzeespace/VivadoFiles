@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/PCAdder.v,1630693074,verilog,,C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter.v,,PCAdder,,,,,,,,
+C:/Users/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter_tb.v,1631116324,verilog,,,,ProgramCounter_tb,,,,,,,,
+C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.sim/sim_1/impl/func/xsim/lab1source_tb_func_impl.v,1631125954,verilog,,C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.srcs/sim_1/new/lab1source_tb.v,,ClkDiv;InstructionFetchUnit;InstructionMemory;ProgramCounter;Two4DigitDisplay;glbl;lab1source,,,,,,,,
+C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.srcs/sim_1/new/InstructionFetchUnit_tb.v,1631040983,verilog,,,,InstructionFetchUnit_tb,,,,,,,,
+C:/Users/nbut9/VivadoFiles/Lab1_BertButEt/Lab1_BertButEt.srcs/sim_1/new/lab1source_tb.v,1631076489,verilog,,,,lab1source_tb,,,,,,,,

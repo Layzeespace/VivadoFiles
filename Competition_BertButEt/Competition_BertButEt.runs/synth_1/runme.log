@@ -1,0 +1,655 @@
+
+*** Running vivado
+    with args -log lab5_source.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab5_source.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source lab5_source.tcl -notrace
+Command: synth_design -top lab5_source -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28580 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 785.363 ; gain = 234.398
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab5_source' [C:/Users/nbut9/VivadoFiles/Lab5_BertButEt/Lab5_BertButEt.srcs/sources_1/new/lab5_source.v:16]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/nbut9/VivadoFiles/Lab5_BertButEt/Lab5_BertButEt.srcs/sources_1/new/lab5_source.v:33]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/nbut9/VivadoFiles/Lab5_BertButEt/Lab5_BertButEt.srcs/sources_1/new/lab5_source.v:38]
+INFO: [Synth 8-6157] synthesizing module 'ClkDiv' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/4-ClockDivider/ClkDiv.v:1]
+	Parameter DivVal bound to: 10000 - type: integer 
+INFO: [Synth 8-4471] merging register 'ClkInt_reg' into 'ClkOut_reg' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/4-ClockDivider/ClkDiv.v:14]
+WARNING: [Synth 8-6014] Unused sequential element ClkInt_reg was removed.  [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/4-ClockDivider/ClkDiv.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'ClkDiv' (1#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/4-ClockDivider/ClkDiv.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Two4DigitDisplay' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v:15]
+	Parameter NUM_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'SevenSegment' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/SevenSegment.v:2]
+INFO: [Synth 8-226] default block is never used [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/SevenSegment.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'SevenSegment' (2#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/SevenSegment.v:2]
+INFO: [Synth 8-226] default block is never used [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v:107]
+INFO: [Synth 8-6155] done synthesizing module 'Two4DigitDisplay' (3#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v:15]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID_EX_MEM_COMBO_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_ID_EX_MEM_COMBO_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID_COMBO_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_ID_COMBO_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IF_STAGE_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_STAGE_V2.v:23]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_STAGE_V2.v:37]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (4#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter.v:27]
+INFO: [Synth 8-6157] synthesizing module 'PCAdder' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/PCAdder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'PCAdder' (5#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/PCAdder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionMemory.v:39]
+INFO: [Synth 8-3876] $readmem data file 'instruction_memory.mem' is read successfully [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionMemory.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (6#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionMemory.v:39]
+INFO: [Synth 8-6157] synthesizing module 'Mux32Bit2To1' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/Mux32Bit2To1/Mux32Bit2To1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Mux32Bit2To1' (7#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/Mux32Bit2To1/Mux32Bit2To1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID_REG_V3' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_ID_REG_V3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID_REG_V3' (8#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_ID_REG_V3.v:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Counter'. This will prevent further optimization [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_STAGE_V2.v:39]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Memory'. This will prevent further optimization [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_STAGE_V2.v:41]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'PCAdder'. This will prevent further optimization [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_STAGE_V2.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'IF_STAGE_V2' (9#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_STAGE_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ID_STAGE_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/ID_STAGE_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/RegisterFile/RegisterFile.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (10#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/RegisterFile/RegisterFile.v:51]
+INFO: [Synth 8-6157] synthesizing module 'SignExtend16' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/SignExtend16.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'SignExtend16' (11#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/SignExtend16.v:8]
+INFO: [Synth 8-6157] synthesizing module 'SignExtend26' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/SignExtend26.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SignExtend26' (12#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/SignExtend26.v:23]
+INFO: [Synth 8-6157] synthesizing module 'HazardUnit' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/HazardUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'HazardUnit' (13#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/HazardUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/Controller.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (14#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/Controller.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ID_EX_REG_V3' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/ID_EX_REG_V3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ID_EX_REG_V3' (15#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/ID_EX_REG_V3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ID_STAGE_V2' (16#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/ID_STAGE_V2.v:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ID'. This will prevent further optimization [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_ID_COMBO_V2.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID_COMBO_V2' (17#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_ID_COMBO_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX_MEM_COMBO_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/EX_MEM_COMBO_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX_STAGE_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/EX_STAGE_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ShiftLeft2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/ShiftLeft2/ShiftLeft2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ShiftLeft2' (18#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/ShiftLeft2/ShiftLeft2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder32Bit' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/Adder32Bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adder32Bit' (19#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/Adder32Bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ShiftLeft16' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/ShiftLeft16.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ShiftLeft16' (20#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/ShiftLeft16.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux32Bit4To1' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/Mux32Bit4To1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Mux32Bit4To1' (21#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/Mux32Bit4To1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ALU32Bit_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/ALU32Bit_V2.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ALU32Bit_V2' (22#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/ALU32Bit_V2.v:4]
+INFO: [Synth 8-6157] synthesizing module 'HiLoALU' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/HiLoALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'HiLoALU' (23#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/HiLoALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX_MEM_REG_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/EX_MEM_REG_V2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EX_MEM_REG_V2' (24#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/EX_MEM_REG_V2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EX_STAGE_V2' (25#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/EX_STAGE_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEM_STAGE_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/MEM_STAGE_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ANDgate' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/ANDgate.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ANDgate' (26#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/ANDgate.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/DataMemory/DataMemory.v:39]
+INFO: [Synth 8-3876] $readmem data file 'data_memory.mem' is read successfully [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/DataMemory/DataMemory.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (27#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/Downloads/DatapathComponents/DataMemory/DataMemory.v:39]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB_REG_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/MEM_WB_REG_V2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB_REG_V2' (28#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/MEM_WB_REG_V2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEM_STAGE_V2' (29#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/MEM_STAGE_V2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EX_MEM_COMBO_V2' (30#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/EX_MEM_COMBO_V2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID_EX_MEM_COMBO_V2' (31#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/IF_ID_EX_MEM_COMBO_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WB_STAGE_V2' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/WB_STAGE_V2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ORgate' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/ORgate.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ORgate' (32#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/ORgate.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux32Bit8To1' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/Mux32Bit8To1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Mux32Bit8To1' (33#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/Mux32Bit8To1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'SignExtend8' [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/SignExtend8.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'SignExtend8' (34#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/imports/nbut9/VivadoFiles/Lab4_BertButEt/Lab4_BertButEt.srcs/sources_1/new/SignExtend8.v:8]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'RegWriteDataMux'. This will prevent further optimization [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/WB_STAGE_V2.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'WB_STAGE_V2' (35#1) [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/WB_STAGE_V2.v:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'FDXMEM'. This will prevent further optimization [C:/Users/nbut9/VivadoFiles/Lab5_BertButEt/Lab5_BertButEt.srcs/sources_1/new/lab5_source.v:43]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Display'. This will prevent further optimization [C:/Users/nbut9/VivadoFiles/Lab5_BertButEt/Lab5_BertButEt.srcs/sources_1/new/lab5_source.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'lab5_source' (36#1) [C:/Users/nbut9/VivadoFiles/Lab5_BertButEt/Lab5_BertButEt.srcs/sources_1/new/lab5_source.v:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 860.102 ; gain = 309.137
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 860.102 ; gain = 309.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 860.102 ; gain = 309.137
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.181 . Memory (MB): peak = 860.102 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/constrs_1/imports/5-Two4DigitDisplay/Two4DigitDisplay.xdc]
+Finished Parsing XDC File [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/constrs_1/imports/5-Two4DigitDisplay/Two4DigitDisplay.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/constrs_1/imports/5-Two4DigitDisplay/Two4DigitDisplay.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab5_source_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab5_source_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 990.559 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 990.559 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 990.559 ; gain = 439.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 990.559 ; gain = 439.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 990.559 ; gain = 439.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 990.559 ; gain = 439.594
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 2     
+	   3 Input     64 Bit       Adders := 3     
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 55    
+	               26 Bit    Registers := 1     
+	                5 Bit    Registers := 5     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 22    
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 9     
+	   4 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 2     
+	   8 Input     32 Bit        Muxes := 1     
+	   7 Input     27 Bit        Muxes := 1     
+	   2 Input     27 Bit        Muxes := 2     
+	   2 Input     26 Bit        Muxes := 3     
+	  19 Input     26 Bit        Muxes := 1     
+	  19 Input     25 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 4     
+	   3 Input     25 Bit        Muxes := 1     
+	   6 Input     25 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   3 Input      9 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ClkDiv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 1     
+Module Two4DigitDisplay 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+Module ProgramCounter 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module PCAdder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module Mux32Bit2To1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module IF_ID_REG_V3 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module RegisterFile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module HazardUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module Controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input     27 Bit        Muxes := 1     
+	   2 Input     27 Bit        Muxes := 2     
+	   2 Input     26 Bit        Muxes := 2     
+	  19 Input     26 Bit        Muxes := 1     
+	  19 Input     25 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 4     
+	   3 Input     25 Bit        Muxes := 1     
+	   6 Input     25 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   3 Input      9 Bit        Muxes := 1     
+Module ID_EX_REG_V3 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 7     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 8     
+Module Adder32Bit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module Mux32Bit4To1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module ALU32Bit_V2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   3 Input     64 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module HiLoALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   3 Input     64 Bit       Adders := 1     
++---Muxes : 
+	   6 Input      1 Bit        Muxes := 1     
+Module EX_MEM_REG_V2 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 7     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module DataMemory 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module MEM_WB_REG_V2 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 6     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "CTRLR/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "CTRLR/" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/ALU32Bit_V2.v:54]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.srcs/sources_1/new/ALU32Bit_V2.v:51]
+DSP Report: Generating DSP ALUResult0, operation Mode is: A*B.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: Generating DSP ALUResult0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: Generating DSP ALUResult0, operation Mode is: A*B.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: Generating DSP ALUResult0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: Generating DSP ALUResult0, operation Mode is: A*B.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: Generating DSP ALUResult0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: Generating DSP ALUResult0, operation Mode is: A*B.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: Generating DSP ALUResult0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+DSP Report: operator ALUResult0 is absorbed into DSP ALUResult0.
+INFO: [Synth 8-6851] RAM (EXMEM/MEM/memory/memory_reg) has partial Byte Wide Write Enable pattern, however no output register found in fanout of RAM. Recommended to use supported Byte Wide Write Enable template. 
+INFO: [Synth 8-6851] RAM (EXMEM/MEM/memory/memory_reg) has partial Byte Wide Write Enable pattern, however no output register found in fanout of RAM. Recommended to use supported Byte Wide Write Enable template. 
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[0]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[0]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[1]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[1]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[2]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[2]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[3]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[3]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[4]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[4]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[5]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[5]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[6]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[6]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[7]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[7]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[8]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[8]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[9]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[9]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[10]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[10]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[11]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[11]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[12]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[12]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[13]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[13]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[14]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[14]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[15]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[16]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI2016_reg[0]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[17]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI2016_reg[1]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[18]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI2016_reg[2]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[19]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI2016_reg[3]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm2_reg[20]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI2016_reg[4]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/ocMove_reg' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/ocALUSrcA_reg[1]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[11]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI1511_reg[0]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[12]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI1511_reg[1]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[13]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI1511_reg[2]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[14]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI1511_reg[3]'
+INFO: [Synth 8-3886] merging instance 'FDXMEM/IFID/ID/IDEXREG/oSEImm_reg[15]' (FDR) to 'FDXMEM/IFID/ID/IDEXREG/oI1511_reg[4]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:01:33 . Memory (MB): peak = 1013.504 ; gain = 462.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------+------------+---------------+----------------+
+|Module Name       | RTL Object | Depth x Width | Implemented As | 
++------------------+------------+---------------+----------------+
+|InstructionMemory | p_0_out    | 1024x32       | LUT            | 
+|InstructionMemory | p_0_out    | 1024x32       | LUT            | 
++------------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+-----------------------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object                  | Inference | Size (Depth x Width) | Primitives        | 
++------------+-----------------------------+-----------+----------------------+-------------------+
+|FDXMEM      | EXMEM/MEM/memory/memory_reg | Implied   | 8 K x 32             | RAM256X1S x 1024	 | 
++------------+-----------------------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping	Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ALU32Bit_V2 | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU32Bit_V2 | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU32Bit_V2 | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU32Bit_V2 | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU32Bit_V2 | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU32Bit_V2 | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU32Bit_V2 | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU32Bit_V2 | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:41 ; elapsed = 00:01:50 . Memory (MB): peak = 1013.504 ; gain = 462.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:43 ; elapsed = 00:01:52 . Memory (MB): peak = 1038.277 ; gain = 487.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+-----------------------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object                  | Inference | Size (Depth x Width) | Primitives        | 
++------------+-----------------------------+-----------+----------------------+-------------------+
+|FDXMEM      | EXMEM/MEM/memory/memory_reg | Implied   | 8 K x 32             | RAM256X1S x 1024	 | 
++------------+-----------------------------+-----------+----------------------+-------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:50 ; elapsed = 00:02:00 . Memory (MB): peak = 1109.875 ; gain = 558.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:57 ; elapsed = 00:02:07 . Memory (MB): peak = 1120.684 ; gain = 569.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:57 ; elapsed = 00:02:07 . Memory (MB): peak = 1120.684 ; gain = 569.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:59 ; elapsed = 00:02:09 . Memory (MB): peak = 1120.684 ; gain = 569.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:59 ; elapsed = 00:02:09 . Memory (MB): peak = 1120.684 ; gain = 569.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:59 ; elapsed = 00:02:09 . Memory (MB): peak = 1120.684 ; gain = 569.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:59 ; elapsed = 00:02:09 . Memory (MB): peak = 1120.684 ; gain = 569.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |  1233|
+|3     |DSP48E1   |     8|
+|4     |LUT1      |     2|
+|5     |LUT2      |   344|
+|6     |LUT3      |  1484|
+|7     |LUT4      |   526|
+|8     |LUT5      |   580|
+|9     |LUT6      |  4998|
+|10    |MUXF7     |   457|
+|11    |MUXF8     |    32|
+|12    |RAM256X1S |  1024|
+|13    |FDCE      |    32|
+|14    |FDRE      |  2184|
+|15    |IBUF      |     2|
+|16    |OBUF      |    15|
++------+----------+------+
+
+Report Instance Areas: 
++------+--------------------+----------------------+------+
+|      |Instance            |Module                |Cells |
++------+--------------------+----------------------+------+
+|1     |top                 |                      | 12922|
+|2     |  Display           |Two4DigitDisplay      |    53|
+|3     |  FDXMEM            |IF_ID_EX_MEM_COMBO_V2 | 12657|
+|4     |    IFID            |IF_ID_COMBO_V2        |  2465|
+|5     |      IF            |IF_STAGE_V2           |   246|
+|6     |        Counter     |ProgramCounter        |    32|
+|7     |        PCAdder     |PCAdder               |     9|
+|8     |        Memory      |InstructionMemory     |   108|
+|9     |        IFID        |IF_ID_REG_V3          |    65|
+|10    |        PCMux       |Mux32Bit2To1_2        |    32|
+|11    |      ID            |ID_STAGE_V2           |  2219|
+|12    |        IDEXREG     |ID_EX_REG_V3          |   331|
+|13    |        regFile     |RegisterFile          |  1888|
+|14    |    EXMEM           |EX_MEM_COMBO_V2       | 10158|
+|15    |      EX            |EX_STAGE_V2           |  8419|
+|16    |        ALU         |ALU32Bit_V2           |  5513|
+|17    |        ALUSrcMuxA  |Mux32Bit4To1__3       |  1241|
+|18    |        ALUSrcMuxB  |Mux32Bit4To1_0        |   697|
+|19    |        EXMEMREG    |EX_MEM_REG_V2         |   817|
+|20    |        HiLo        |HiLoALU               |   146|
+|21    |        RegDstMux   |Mux32Bit2To1_1        |     5|
+|22    |      MEM           |MEM_STAGE_V2          |  1739|
+|23    |        MEMREG      |MEM_WB_REG_V2         |   271|
+|24    |        memory      |DataMemory            |  1468|
+|25    |  WB                |WB_STAGE_V2           |   126|
+|26    |    RegWriteDataMux |Mux32Bit4To1          |    24|
+|27    |    RegAddressMux   |Mux32Bit2To1          |     5|
+|28    |  clkDiv            |ClkDiv                |    68|
++------+--------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:59 ; elapsed = 00:02:09 . Memory (MB): peak = 1120.684 ; gain = 569.719
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 24 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:41 ; elapsed = 00:02:00 . Memory (MB): peak = 1120.684 ; gain = 439.262
+Synthesis Optimization Complete : Time (s): cpu = 00:02:00 ; elapsed = 00:02:10 . Memory (MB): peak = 1120.684 ; gain = 569.719
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.330 . Memory (MB): peak = 1120.684 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2754 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1120.684 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1024 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 1024 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+132 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:13 ; elapsed = 00:02:26 . Memory (MB): peak = 1120.684 ; gain = 822.023
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1120.684 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/nbut9/VivadoFiles/Competition_BertButEt/Competition_BertButEt.runs/synth_1/lab5_source.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lab5_source_utilization_synth.rpt -pb lab5_source_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  4 23:22:29 2021...

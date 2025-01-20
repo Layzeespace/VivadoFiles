@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"lab4_source_tb_func_synth.v" \
+"../../../../../Lab4_BertButEt_V2.srcs/sim_1/new/lab4_source_tb.v" \
+
+# Do not sort compile order
+nosort

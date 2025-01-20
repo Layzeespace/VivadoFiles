@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Competition_BertButEt.srcs/sources_1/new/AbsDiff_16x2To16_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/AbsDiff_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/Adder_16To4_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/Adder_32Bit_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/Adder_4To1_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/BigMemory_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/BigMemory_Fragment_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/DataMemory_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/MEGA_SAD_COMBO.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/MEM_MEGASAD_COMBO.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/MEM_STAGE_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/Multiplier_32Bit_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/REG_MEM_SAD1_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/REG_SAD1_SAD2_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/REG_SAD2_SAD3_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/REG_SAD3_WB_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/SAD1_STAGE_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/SAD2_STAGE_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/SAD3_STAGE_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/ShiftLeft_2_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/SumReg_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/WidthHolder.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/WindowMemory_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/MEM_MEGASAD_COMBO_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

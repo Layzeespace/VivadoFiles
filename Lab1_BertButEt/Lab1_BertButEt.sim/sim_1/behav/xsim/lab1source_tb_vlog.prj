@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Downloads/Resources/Resources/4-ClockDivider/ClkDiv.v" \
+"../../../../../../Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionFetchUnit.v" \
+"../../../../../../Downloads/Resources/Resources/1-InstructionFetchUnit/InstructionMemory.v" \
+"../../../../../../Downloads/Resources/Resources/1-InstructionFetchUnit/PCAdder.v" \
+"../../../../../../Downloads/Resources/Resources/1-InstructionFetchUnit/ProgramCounter.v" \
+"../../../../../../Downloads/Resources/Resources/5-Two4DigitDisplay/SevenSegment.v" \
+"../../../../../../Downloads/Resources/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v" \
+"../../../../Lab1_BertButEt.srcs/sources_1/new/lab1source.v" \
+"../../../../Lab1_BertButEt.srcs/sim_1/new/lab1source_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

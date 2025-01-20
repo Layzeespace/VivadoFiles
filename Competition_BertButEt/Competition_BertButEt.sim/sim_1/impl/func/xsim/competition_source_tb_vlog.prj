@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"competition_source_tb_func_impl.v" \
+"../../../../../Competition_BertButEt.srcs/sim_1/new/competition_source_tb.v" \
+
+# Do not sort compile order
+nosort

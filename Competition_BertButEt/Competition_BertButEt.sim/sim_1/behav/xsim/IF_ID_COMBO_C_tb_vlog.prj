@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Competition_BertButEt.srcs/sources_1/new/Adder_32Bit_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/BranchCache_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/BranchDecoder_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/Controller_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/HazardUnit_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/ID_STAGE_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/IF_ID_COMBO_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/IF_STAGE_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/InstructionMemory_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/Mux_32Bit_2To1_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/Mux_32Bit_8To1_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/OR_Gate_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/ProgramCounter_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/REG_ID_EX_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/REG_IF_ID_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/RegFile_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/ShiftLeft_2_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/SignExtend_16to32_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/SignExtend_26To32_C.v" \
+"../../../../Competition_BertButEt.srcs/sources_1/new/IF_ID_COMBO_C_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
